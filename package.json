@@ -1,0 +1,16 @@
+{
+  "name": "svartsite",
+  "version": "1.0.0",
+  "description": "website of bookbinding atelier",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "book",
+    "bookbinding",
+    "handmade",
+    "workshop"
+  ],
+  "author": "Yoalli Svart"
+}

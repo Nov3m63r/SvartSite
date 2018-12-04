@@ -1,0 +1,70 @@
+body {
+	background-attachment: scroll;
+	background-color: #000;
+	background-image: url(media/bgr.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 1360px;
+	/* width: 1200px; */
+	font-family: 'Krub', sans-serif;
+	color: #dcdce5;
+	font-size: 1.35em;
+}
+
+ul,
+li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #adadd8;
+}
+
+a:hover {
+	color: #6888f3;
+	text-decoration: none;
+}
+
+p {
+	font-size: 0.6em;
+	margin-top: 60px;
+}
+
+.header {
+	padding-top: 14px;
+}
+
+.mainscreen {
+	padding-top: 42px;
+}
+
+.galley {
+	margin-top: 22px;
+}
+
+.galley-lines {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.paper {
+	margin-top: 15px;
+}
+
+.logo {
+	margin: 50px;
+}
+
+.etsy {
+	padding-top: 6px;
+}
+
+.menu__item {
+	padding: 7px;
+}
+
+.icons {
+	margin: 0 22px
+}
