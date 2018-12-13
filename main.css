@@ -68,3 +68,21 @@ p {
 .icons {
 	margin: 0 22px
 }
+
+.madein {
+	font-size: 0.7em
+}
+
+.full-size {
+	height: 400px;
+}
+
+.thumbnails img {
+	width: 100px;
+}
+
+.scrollButtons {
+	font-family: 'Krub', sans-serif;
+	color: #9193a1;
+	font-size: 4em;
+}

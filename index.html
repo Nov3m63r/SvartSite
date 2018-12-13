@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Krub:400" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -46,6 +46,7 @@
             </div>
         </div>
     </header>
+
     <section id="mainscreen" class="mainscreen">
         <div class="container">
             <div class="row justify-content-center">
@@ -57,7 +58,6 @@
             </div>
             <div class="row justify-content-around">
                 <div class="col-lg-8">
-
                     <ul class="paper-line d-flex justify-content-around">
                         <li class="menu__item">
                             <img src="media/paper.png" class="paper" />
@@ -69,8 +69,6 @@
                             <img src="media/leather.png" />
                         </li>
                     </ul>
-
-
                 </div>
             </div>
             <div class="row justify-content-around">
@@ -78,6 +76,37 @@
             </div>
         </div>
     </section>
+
+    <section id="galley" class="galley">
+        <div class="container">
+            <div class="row justify-content-around">
+                <!-- thumbnails
+                <div class="col-lg-9">
+                    <div class="d-flex justify-content-around thumbnails">
+                        <img src='media/slider-images/thumbs/IMG_0001.jpg' data-src-full='media/slider-images/IMG_0001.jpg' />
+                        <img src='media/slider-images/thumbs/IMG_0002.jpg' data-src-full='media/slider-images/IMG_0002.jpg' />
+                        <img src='media/slider-images/thumbs/IMG_0003.jpg' data-src-full='media/slider-images/IMG_0003.jpg' />
+                        <img src='media/slider-images/thumbs/IMG_0004.jpg' data-src-full='media/slider-images/IMG_0004.jpg' />
+                    </div>
+                </div>
+                -->
+                <div class="col-lg-8">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="scrollButtons">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="full-size-img">
+                            <img class="full-size" src='media/slider-img/IMG_0143.jpg' />
+                        </div>
+                        <div class="scrollButtons">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
     <section id="galley" class="galley">
         <div class="container">
             <div class="row justify-content-around">
@@ -99,11 +128,12 @@
             </div>
         </div>
     </section>
+-->
 
     <footer id="footer" class="footer">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="(c)">
+                <div class="madein">
                     <p>© 2018 Svart Bindery<br />
                         Made in Svartalfheim</p>
                 </div>
